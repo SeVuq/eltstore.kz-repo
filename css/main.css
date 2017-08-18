@@ -1,0 +1,48 @@
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.header {
+  height: 135px;
+  padding-top: 30px; }
+  .header img {
+    margin: 5px 0 0 40px; }
+  .header .contact {
+    margin-left: 45px; }
+  .header h3 {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0 10px 10px 0; }
+    .header h3:nth-child(2) {
+      margin-left: 5px; }
+  .header .btn {
+    background: white;
+    color: #ff4081;
+    border: 1px solid #ff4081;
+    padding: 3px 35px;
+    font-size: 16px;
+    font-weight: thick;
+    transition: 0.3s all ease; }
+    .header .btn:hover {
+      background: #ff4081;
+      color: white; }
+    .header .btn a {
+      text-decoration: none; }
+    .header .btn p {
+      font-size: 40px; }
+
+.menu {
+  min-height: 60px; }
+  .menu ul li {
+    display: inline; }
+
+.slicknav_menu {
+  display: none; }
+
+@media screen and (max-width: 48em) {
+  #menu {
+    display: none; }
+
+  .slicknav_menu {
+    display: block; } }
+
+/*# sourceMappingURL=main.css.map */
